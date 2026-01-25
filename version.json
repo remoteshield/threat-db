@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.1",
   "downloadUrl": "https://raw.githubusercontent.com/remoteshield/threat-db/main/threat_database.json",
   "changeLog": "Initial release with 68 remote access tools, 14 known signers, and 14 network ports.",
   "minAppVersion": "1.5.7",
