@@ -1,7 +1,7 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "lastUpdated": "2026-01-31",
-  "description": "RemoteShield Threat Database - v1.2.1 with additional process name variations",
+  "description": "RemoteShield Threat Database - v1.2.2 with correct FixMe.IT and Dayon! process names",
   "blockedApps": [
     {"name": "anydesk.exe", "category": "remote_access", "description": "AnyDesk Remote Desktop", "severity": "high", "enabled": true},
     {"name": "anydesk_service.exe", "category": "remote_access", "description": "AnyDesk Service", "severity": "high", "enabled": true},
@@ -78,6 +78,7 @@
     {"name": "x2goagent.exe", "category": "remote_access", "description": "X2Go Agent", "severity": "high", "enabled": true},
     {"name": "pulseaudio.exe", "category": "remote_access", "description": "X2Go PulseAudio", "severity": "high", "enabled": true},
     {"name": "dayon.exe", "category": "remote_access", "description": "Dayon! Remote Desktop", "severity": "high", "enabled": true},
+    {"name": "dayon.jar", "category": "remote_access", "description": "Dayon! Java Archive", "severity": "high", "enabled": true},
     {"name": "dayon.assistant.exe", "category": "remote_access", "description": "Dayon! Assistant", "severity": "high", "enabled": true},
     {"name": "dayon.assisted.exe", "category": "remote_access", "description": "Dayon! Assisted", "severity": "high", "enabled": true},
     {"name": "dayon_assistant.exe", "category": "remote_access", "description": "Dayon! Assistant", "severity": "high", "enabled": true},
@@ -85,12 +86,13 @@
     {"name": "desktopnow.exe", "category": "remote_access", "description": "DesktopNow", "severity": "high", "enabled": true},
     {"name": "desktopnowclient.exe", "category": "remote_access", "description": "DesktopNow Client", "severity": "high", "enabled": true},
     {"name": "desktopnowservice.exe", "category": "remote_access", "description": "DesktopNow Service", "severity": "high", "enabled": true},
+    {"name": "tiexpertstandalone.exe", "category": "remote_access", "description": "FixMe.IT/TechInline Expert Standalone", "severity": "high", "enabled": true},
+    {"name": "tipexpertcore.exe", "category": "remote_access", "description": "FixMe.IT/TechInline Expert Core", "severity": "high", "enabled": true},
     {"name": "fixmeit.exe", "category": "remote_access", "description": "FixMe.IT", "severity": "high", "enabled": true},
     {"name": "fixmeit_expert.exe", "category": "remote_access", "description": "FixMe.IT Expert", "severity": "high", "enabled": true},
     {"name": "fixmeitexpert.exe", "category": "remote_access", "description": "FixMe.IT Expert", "severity": "high", "enabled": true},
     {"name": "techinline.exe", "category": "remote_access", "description": "FixMe.IT TechInline", "severity": "high", "enabled": true},
     {"name": "techinlineexpert.exe", "category": "remote_access", "description": "TechInline Expert", "severity": "high", "enabled": true},
-    {"name": "expert.exe", "category": "remote_access", "description": "FixMe.IT/TechInline Expert", "severity": "medium", "enabled": true},
     {"name": "gg-trial.exe", "category": "remote_access", "description": "Go-Global Trial Host", "severity": "high", "enabled": true},
     {"name": "gg-host.exe", "category": "remote_access", "description": "Go-Global Host", "severity": "high", "enabled": true},
     {"name": "go-global.exe", "category": "remote_access", "description": "Go-Global", "severity": "high", "enabled": true},
@@ -205,7 +207,8 @@
     {"name": "Aspia", "description": "Aspia"},
     {"name": "Dmitry Chapyshev", "description": "Aspia"},
     {"name": "Dayon!", "description": "Dayon!"},
-    {"name": "X2Go", "description": "X2Go"}
+    {"name": "X2Go", "description": "X2Go"},
+    {"name": "NCH Software", "description": "DesktopNow"}
   ],
   "blockedPorts": [
     {"name": "TeamViewer", "port": 5938, "protocol": "TCP/UDP"},

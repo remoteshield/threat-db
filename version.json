@@ -1,8 +1,8 @@
 {
-  "version": "1.2.1",
-  "sha256": "0abc17d77ac9de84f6f30d6149dbd6d048c05bd1f71b4e084f5d85d8a03959ad",
+  "version": "1.2.2",
+  "sha256": "ed6f043c5b50f7c037a709b83fce3b032d893442b495805f77d19ddecfefdcf2",
   "downloadUrl": "https://api.github.com/repos/remoteshield/threat-db/contents/threat_database.json",
-  "changeLog": "v1.2.1: Added process name variations (spaces, underscores), PulseAudio for X2Go, NoMachine .bin files, additional FixMe.IT/Aspia/Dayon variants, more code signers",
+  "changeLog": "v1.2.2: Added correct FixMe.IT processes (tiexpertstandalone.exe, tipexpertcore.exe) and Dayon! Java archive (dayon.jar). Added NCH Software signer for DesktopNow.",
   "minAppVersion": "1.6.0",
   "releaseDate": "2026-01-31"
 }
