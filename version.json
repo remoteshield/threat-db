@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "sha256": "f72e72a0b95dd9d40e3d34ba76dad9cf109f55d488c0cc1410f9641daa7a1768",
+  "version": "1.2.1",
+  "sha256": "0abc17d77ac9de84f6f30d6149dbd6d048c05bd1f71b4e084f5d85d8a03959ad",
   "downloadUrl": "https://api.github.com/repos/remoteshield/threat-db/contents/threat_database.json",
-  "changeLog": "Major update: Added 126 new threats from comprehensive testing including AnyViewer, X2Go, Dayon!, NoMachine, MeshCentral, Veyon, and 25+ RAT signatures (AsyncRAT, XWorm, Quasar, njRAT, DarkComet, etc.)",
+  "changeLog": "v1.2.1: Added process name variations (spaces, underscores), PulseAudio for X2Go, NoMachine .bin files, additional FixMe.IT/Aspia/Dayon variants, more code signers",
   "minAppVersion": "1.6.0",
   "releaseDate": "2026-01-31"
 }
