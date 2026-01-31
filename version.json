@@ -1,8 +1,8 @@
 {
-  "version": "1.1.2",
-  "sha256": "1E7E7B60DEB968844FE3875B4D061E4BD0988DC9AB269CD33F5188D2E2CC60AE",
+  "version": "1.2.0",
+  "sha256": "f72e72a0b95dd9d40e3d34ba76dad9cf109f55d488c0cc1410f9641daa7a1768",
   "downloadUrl": "https://api.github.com/repos/remoteshield/threat-db/contents/threat_database.json",
-  "changeLog": "Added 5 new remote access tools to the block list",
+  "changeLog": "Major update: Added 126 new threats from comprehensive testing including AnyViewer, X2Go, Dayon!, NoMachine, MeshCentral, Veyon, and 25+ RAT signatures (AsyncRAT, XWorm, Quasar, njRAT, DarkComet, etc.)",
   "minAppVersion": "1.6.0",
-  "releaseDate": "2026-01-28"
+  "releaseDate": "2026-01-31"
 }
