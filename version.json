@@ -1,8 +1,8 @@
 {
-  "version": "1.2.2",
-  "sha256": "ed6f043c5b50f7c037a709b83fce3b032d893442b495805f77d19ddecfefdcf2",
+  "version": "1.2.3",
+  "sha256": "249d4023ebc64b3b9f52315d95a8b6e76ccb86d3b9f1344575f64b9daa8d0397",
   "downloadUrl": "https://api.github.com/repos/remoteshield/threat-db/contents/threat_database.json",
-  "changeLog": "v1.2.2: Added correct FixMe.IT processes (tiexpertstandalone.exe, tipexpertcore.exe) and Dayon! Java archive (dayon.jar). Added NCH Software signer for DesktopNow.",
+  "changeLog": "v1.2.3: Added remote heuristic detection fields (knownProductNames, knownWindowTitles, suspiciousPatterns) for improved detection without requiring app updates.",
   "minAppVersion": "1.6.0",
-  "releaseDate": "2026-01-31"
+  "releaseDate": "2026-02-01"
 }

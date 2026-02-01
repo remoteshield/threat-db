@@ -1,7 +1,7 @@
 {
-  "version": "1.2.2",
-  "lastUpdated": "2026-01-31",
-  "description": "RemoteShield Threat Database - v1.2.2 with correct FixMe.IT and Dayon! process names",
+  "version": "1.2.3",
+  "lastUpdated": "2026-02-01",
+  "description": "RemoteShield Threat Database - v1.2.3 with heuristic detection strings",
   "blockedApps": [
     {"name": "anydesk.exe", "category": "remote_access", "description": "AnyDesk Remote Desktop", "severity": "high", "enabled": true},
     {"name": "anydesk_service.exe", "category": "remote_access", "description": "AnyDesk Service", "severity": "high", "enabled": true},
@@ -225,5 +225,28 @@
     {"name": "Ammyy", "port": 5931, "protocol": "TCP"},
     {"name": "RemotePC", "port": 5970, "protocol": "TCP"},
     {"name": "Radmin", "port": 4899, "protocol": "TCP"}
+  ],
+  "knownProductNames": [
+    "AnyDesk", "TeamViewer", "RemotePC", "SupRemo", "Supremo", "Ammyy",
+    "UltraVNC", "TightVNC", "RealVNC", "LogMeIn", "GoToMyPC", "GoToMeeting",
+    "Splashtop", "Chrome Remote Desktop", "ConnectWise", "ScreenConnect",
+    "Zoho Assist", "BeyondTrust", "Dameware", "NetSupport", "ShowMyPC",
+    "Remote Utilities", "RustDesk", "Parsec", "NoMachine", "X2Go",
+    "Radmin", "DWService", "AeroAdmin", "Iperius Remote", "ISL Online",
+    "SimpleHelp", "Bomgar", "Remote Desktop Plus", "mRemoteNG", "UltraViewer",
+    "AnyViewer", "FixMe.IT", "TechInline", "Dayon"
+  ],
+  "knownWindowTitles": [
+    "AnyDesk", "TeamViewer", "Quick Support", "Remote Desktop",
+    "VNC Viewer", "UltraVNC", "TightVNC", "RealVNC",
+    "LogMeIn", "GoToMyPC", "Splashtop", "ScreenConnect",
+    "Remote Support", "Remote Access", "Remote Control",
+    "Ammyy Admin", "RustDesk", "Parsec", "NoMachine",
+    "Your desktop is being viewed", "Remote session active"
+  ],
+  "suspiciousPatterns": [
+    "--service", "--silent", "--hidden", "--no-gui",
+    "/quiet", "/silent", "/S", "--start-minimized",
+    "--password=", "--unattended", "--run-from-host"
   ]
 }
