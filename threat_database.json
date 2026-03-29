@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "lastUpdated": "2026-03-21",
-  "description": "RemoteShield Threat Database - v1.3.0 (211 blocked executables, 43 blocked signers)",
+  "version": "1.4.0",
+  "lastUpdated": "2026-03-29",
+  "description": "RemoteShield Threat Database v1.4.0 - Added FleetDeck (abused in daisy-chain RMM attacks per Huntress March 2026 research)",
   "blockedApps": [
     {
       "name": "anydesk.exe",
@@ -1690,252 +1690,330 @@
       "severity": "critical",
       "enabled": true,
       "userAdded": false
+    },
+    {
+      "name": "fleetdeck_agent_svc.exe",
+      "category": "remote_access",
+      "description": "FleetDeck Agent Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "fleetdeck_agent.exe",
+      "category": "remote_access",
+      "description": "FleetDeck Agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
     }
   ],
   "blockedSigners": [
     {
       "name": "philandro Software GmbH",
-      "description": "AnyDesk"
+      "description": "AnyDesk",
+      "enabled": true
     },
     {
       "name": "AnyDesk Software GmbH",
-      "description": "AnyDesk"
+      "description": "AnyDesk",
+      "enabled": true
     },
     {
       "name": "TeamViewer",
-      "description": "TeamViewer"
+      "description": "TeamViewer",
+      "enabled": true
     },
     {
       "name": "TeamViewer Germany GmbH",
-      "description": "TeamViewer"
+      "description": "TeamViewer",
+      "enabled": true
     },
     {
       "name": "TeamViewer GmbH",
-      "description": "TeamViewer"
+      "description": "TeamViewer",
+      "enabled": true
     },
     {
       "name": "Ammyy LLC",
-      "description": "Ammyy Admin"
+      "description": "Ammyy Admin",
+      "enabled": true
     },
     {
       "name": "Ammyy Group",
-      "description": "Ammyy Admin"
+      "description": "Ammyy Admin",
+      "enabled": true
     },
     {
       "name": "Nanosystems S.r.l.",
-      "description": "Supremo"
+      "description": "Supremo",
+      "enabled": true
     },
     {
       "name": "DucFabulous",
-      "description": "UltraViewer"
+      "description": "UltraViewer",
+      "enabled": true
     },
     {
       "name": "LogMeIn, Inc.",
-      "description": "LogMeIn"
+      "description": "LogMeIn",
+      "enabled": true
     },
     {
       "name": "Splashtop Inc.",
-      "description": "Splashtop"
+      "description": "Splashtop",
+      "enabled": true
     },
     {
       "name": "Parsec Cloud, Inc.",
-      "description": "Parsec"
+      "description": "Parsec",
+      "enabled": true
     },
     {
       "name": "RustDesk",
-      "description": "RustDesk"
+      "description": "RustDesk",
+      "enabled": true
     },
     {
       "name": "RemotePC",
-      "description": "RemotePC"
+      "description": "RemotePC",
+      "enabled": true
     },
     {
       "name": "AnyViewer",
-      "description": "AnyViewer"
+      "description": "AnyViewer",
+      "enabled": true
     },
     {
       "name": "AOMEI Technology Co., Ltd.",
-      "description": "AnyViewer"
+      "description": "AnyViewer",
+      "enabled": true
     },
     {
       "name": "NoMachine S.a.r.l.",
-      "description": "NoMachine"
+      "description": "NoMachine",
+      "enabled": true
     },
     {
       "name": "Veyon Solutions",
-      "description": "Veyon"
+      "description": "Veyon",
+      "enabled": true
     },
     {
       "name": "ThinLinc",
-      "description": "ThinLinc"
+      "description": "ThinLinc",
+      "enabled": true
     },
     {
       "name": "Cendio AB",
-      "description": "ThinLinc"
+      "description": "ThinLinc",
+      "enabled": true
     },
     {
       "name": "MeshCentral",
-      "description": "MeshCentral"
+      "description": "MeshCentral",
+      "enabled": true
     },
     {
       "name": "GlavSoft LLC",
-      "description": "TightVNC"
+      "description": "TightVNC",
+      "enabled": true
     },
     {
       "name": "TightVNC Software",
-      "description": "TightVNC"
+      "description": "TightVNC",
+      "enabled": true
     },
     {
       "name": "Constantin Kaplinsky",
-      "description": "TightVNC"
+      "description": "TightVNC",
+      "enabled": true
     },
     {
       "name": "Famatech Corp.",
-      "description": "Radmin"
+      "description": "Radmin",
+      "enabled": true
     },
     {
       "name": "ISL Online",
-      "description": "ISL Light"
+      "description": "ISL Light",
+      "enabled": true
     },
     {
       "name": "XLAB d.o.o.",
-      "description": "ISL Online"
+      "description": "ISL Online",
+      "enabled": true
     },
     {
       "name": "NinjaRMM, LLC",
-      "description": "NinjaRMM"
+      "description": "NinjaRMM",
+      "enabled": true
     },
     {
       "name": "Atera Networks Ltd",
-      "description": "Atera"
+      "description": "Atera",
+      "enabled": true
     },
     {
       "name": "Action1 Corporation",
-      "description": "Action1"
+      "description": "Action1",
+      "enabled": true
     },
     {
       "name": "ConnectWise, LLC",
-      "description": "ScreenConnect"
+      "description": "ScreenConnect",
+      "enabled": true
     },
     {
       "name": "ConnectWise, Inc.",
-      "description": "ScreenConnect"
+      "description": "ScreenConnect",
+      "enabled": true
     },
     {
       "name": "Kaseya International Limited",
-      "description": "Kaseya VSA"
+      "description": "Kaseya VSA",
+      "enabled": true
     },
     {
       "name": "Kaseya US LLC",
-      "description": "Kaseya VSA"
+      "description": "Kaseya VSA",
+      "enabled": true
     },
     {
       "name": "PDQ.com Corporation",
-      "description": "PDQ Connect"
+      "description": "PDQ Connect",
+      "enabled": true
     },
     {
       "name": "Datto, Inc.",
-      "description": "Datto RMM"
+      "description": "Datto RMM",
+      "enabled": true
     },
     {
       "name": "N-able Technologies Ltd",
-      "description": "N-able"
+      "description": "N-able",
+      "enabled": true
     },
     {
       "name": "SolarWinds Worldwide, LLC",
-      "description": "SolarWinds RMM"
+      "description": "SolarWinds RMM",
+      "enabled": true
     },
     {
       "name": "Level.io, Inc.",
-      "description": "Level RMM"
+      "description": "Level RMM",
+      "enabled": true
     },
     {
       "name": "TrustConnect Software PTY LTD",
-      "description": "TrustConnect RAT"
+      "description": "TrustConnect RAT",
+      "enabled": true
     },
     {
       "name": "ITarian Inc.",
-      "description": "ITarian RMM"
+      "description": "ITarian RMM",
+      "enabled": true
     },
     {
       "name": "ZOHO Corporation Private Limited",
-      "description": "ManageEngine"
+      "description": "ManageEngine",
+      "enabled": true
     },
     {
       "name": "GraphOn Corporation",
-      "description": "GO-Global"
+      "description": "GO-Global",
+      "enabled": true
+    },
+    {
+      "name": "FleetDeck Inc.",
+      "description": "FleetDeck",
+      "enabled": true
     }
   ],
   "blockedPorts": [
     {
       "name": "TeamViewer",
       "port": 5938,
-      "protocol": "TCP/UDP"
+      "protocol": "TCP/UDP",
+      "enabled": true
     },
     {
       "name": "AnyDesk",
       "port": 7070,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "VNC",
       "port": 5900,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "VNC-Alt1",
       "port": 5901,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "VNC-Alt2",
       "port": 5902,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "VNC-HTTP",
       "port": 5800,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "RustDesk-1",
       "port": 21115,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "RustDesk-2",
       "port": 21116,
-      "protocol": "TCP/UDP"
+      "protocol": "TCP/UDP",
+      "enabled": true
     },
     {
       "name": "RustDesk-3",
       "port": 21117,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "RustDesk-4",
       "port": 21118,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "RustDesk-5",
       "port": 21119,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "Ammyy",
       "port": 5931,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "RemotePC",
       "port": 5970,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     },
     {
       "name": "Radmin",
       "port": 4899,
-      "protocol": "TCP"
+      "protocol": "TCP",
+      "enabled": true
     }
   ],
   "knownProductNames": [
@@ -2002,7 +2080,8 @@
     "PoisonIvy",
     "BlackShades",
     "LuminosityLink",
-    "Crimson"
+    "Crimson",
+    "FleetDeck"
   ],
   "knownWindowTitles": [
     "AnyDesk",
@@ -2025,7 +2104,8 @@
     "Parsec",
     "NoMachine",
     "Your desktop is being viewed",
-    "Remote session active"
+    "Remote session active",
+    "FleetDeck"
   ],
   "suspiciousPatterns": [
     "--ad-service",
