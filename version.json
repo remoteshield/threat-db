@@ -1,8 +1,9 @@
 {
-  "version": "1.3.0",
-  "sha256": "caf368e4ea428c97fd38ff911af62c93fc81c470a3d146fd8bcb4dca910f0a23",
-  "downloadUrl": "https://api.github.com/repos/remoteshield/threat-db/contents/threat_database.json",
-  "changeLog": "Major update: Added 28 abused RMM tools (Atera, NinjaRMM, Action1, PDQ, Level, Datto, Kaseya, ITarian, GoToResolve, TacticalRMM, N-able, ManageEngine) and 24 new RATs (Remcos, NanoCore, NetWire, Warzone, Crimson, Orcus, RevengeRAT, BlackShades, LuminosityLink, Gh0st, PoisonIvy, Adwind, StilachiRAT, ResolverRAT, Bawless, Steaelite). Added TrustConnect/DocConnect fake RMM RAT (Feb 2026 discovery). 16 new blocked signers. Total: 211 blocked executables, 43 signers.",
-  "minAppVersion": "1.7.0",
-  "releaseDate": "2026-03-21"
+  "version": "1.4.0",
+  "sha256": "8b0322be969b2165aef4ade6cf0c76f914b84e0eea357dce519d175d9dae7f11",
+  "downloadUrl": "https://raw.githubusercontent.com/remoteshield/threat-db/main/threat_database.json",
+  "changeLog": "v1.4.0: Added FleetDeck Agent (fleetdeck_agent_svc.exe, fleetdeck_agent.exe) — actively abused in daisy-chain RMM attacks per Huntress March 2026 research. Added FleetDeck Inc. signer. Total: 213 apps, 44 signers.",
+  "minAppVersion": "1.7.3",
+  "releaseDate": "2026-03-29",
+  "mandatory": false
 }
