@@ -1,9 +1,9 @@
 {
-  "version": "1.4.0",
-  "sha256": "8b0322be969b2165aef4ade6cf0c76f914b84e0eea357dce519d175d9dae7f11",
+  "version": "1.6.0",
+  "sha256": "f8a441a8f72e3cc0816c45b7d86e09fa9c4cb266671a525a4ca2b51a77ded5d2",
   "downloadUrl": "https://raw.githubusercontent.com/remoteshield/threat-db/main/threat_database.json",
-  "changeLog": "v1.4.0: Added FleetDeck Agent (fleetdeck_agent_svc.exe, fleetdeck_agent.exe) — actively abused in daisy-chain RMM attacks per Huntress March 2026 research. Added FleetDeck Inc. signer. Total: 213 apps, 44 signers.",
-  "minAppVersion": "1.7.3",
-  "releaseDate": "2026-03-29",
+  "changeLog": "v1.6.0 (2026-04-12) — Added 20 entries: SimpleHelp, Naverisk, Pulseway, Syncro/SyncroMSP, N-able/Take Control, ITarian/Comodo One, Datto RMM/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report, Sophos STAC6405, Proofpoint TrustConnect RATaaS, Microsoft Defender Experts, Barracuda SOC.",
+  "minAppVersion": "2.0.0"
+  "releaseDate": "2026-04-12",
   "mandatory": false
 }
