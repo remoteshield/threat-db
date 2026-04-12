@@ -1,8 +1,32 @@
 {
-  "version": "1.4.0",
-  "lastUpdated": "2026-03-29",
-  "description": "RemoteShield Threat Database v1.4.0 - Added FleetDeck (abused in daisy-chain RMM attacks per Huntress March 2026 research)",
+  "version": "1.6.0",
+  "lastUpdated": "2026-04-12",
+  "description": "RemoteShield Threat Database v1.6.0 - Added SimpleHelp, Naverisk, Pulseway, Syncro, N-able, Take Control, ITarian, Datto/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report (Mar 2026), Sophos STAC6405 (Apr 2026), Proofpoint TrustConnect RATaaS (Feb 2026), Microsoft Defender Experts signed-malware report (Mar 2026), Barracuda December SOC Threat Radar.",
   "blockedApps": [
+    {
+      "name": "dayon.exe",
+      "category": "remote_access",
+      "description": "Dayon Remote Assistance (native wrapper)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "dayon_assisted.exe",
+      "category": "remote_access",
+      "description": "Dayon Assisted Mode",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "dayon_assistant.exe",
+      "category": "remote_access",
+      "description": "Dayon Assistant Mode",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
     {
       "name": "anydesk.exe",
       "category": "remote_access",
@@ -831,6 +855,14 @@
       "name": "qvdclient.exe",
       "category": "remote_access",
       "description": "QVD Client",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "qvd_client.exe",
+      "category": "remote_access",
+      "description": "QVD Client (underscore variant)",
       "severity": "high",
       "enabled": true,
       "userAdded": false
@@ -1706,6 +1738,166 @@
       "severity": "high",
       "enabled": true,
       "userAdded": false
+    },
+    {
+      "name": "simplehelp.exe",
+      "category": "remote_access",
+      "description": "SimpleHelp Remote Support (abused for ransomware delivery)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "simplehelpcustomer.exe",
+      "category": "remote_access",
+      "description": "SimpleHelp Customer Client",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "simplegatewayservice.exe",
+      "category": "remote_access",
+      "description": "SimpleHelp Gateway Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "naverisk.exe",
+      "category": "remote_access",
+      "description": "Naverisk RMM (abused in STAC6405 campaign per Sophos)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "pulseway.exe",
+      "category": "remote_access",
+      "description": "Pulseway RMM (abused for unauthorized remote access)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "pulsewaymanager.exe",
+      "category": "remote_access",
+      "description": "Pulseway Manager Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "syncro.exe",
+      "category": "remote_access",
+      "description": "Syncro / SyncroMSP RMM",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "syncroservice.exe",
+      "category": "remote_access",
+      "description": "Syncro Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "syncrolive.exe",
+      "category": "remote_access",
+      "description": "Syncro Live Agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "windowsagent.exe",
+      "category": "remote_access",
+      "description": "N-able / N-central agent (commonly named windowsagent.exe)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "takecontrol.exe",
+      "category": "remote_access",
+      "description": "N-able Take Control",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "takecontrolviewer.exe",
+      "category": "remote_access",
+      "description": "N-able Take Control Viewer",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "itsmagentsvc.exe",
+      "category": "remote_access",
+      "description": "ITarian / Comodo One ITSM Agent Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "itsmservice.exe",
+      "category": "remote_access",
+      "description": "ITarian Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "aemagentservice.exe",
+      "category": "remote_access",
+      "description": "Datto RMM / CentraStage AEM Agent Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "dcservice.exe",
+      "category": "remote_access",
+      "description": "Datto / CentraStage Device Control Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "superopsagent.exe",
+      "category": "remote_access",
+      "description": "SuperOps RMM Agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "domotzpro-agent-package.exe",
+      "category": "remote_access",
+      "description": "Domotz Pro Agent (network monitoring with remote access)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "lmiignition.exe",
+      "category": "remote_access",
+      "description": "LogMeIn Ignition / Resolve agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "lmiguardiansvc.exe",
+      "category": "remote_access",
+      "description": "LogMeIn Guardian Service",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
     }
   ],
   "blockedSigners": [
@@ -2118,5 +2310,12 @@
     "--unattended",
     "--run-from-host",
     "--relay-server"
+  ],
+  "currentScams": [
+    "Fake 'Microsoft Tech Support' calls are surging \u2014 Microsoft will never phone you about a virus.",
+    "Scammers impersonating Australian banks asking you to install AnyDesk or TeamViewer to 'fix' your account.",
+    "Cryptocurrency 'recovery' scams targeting victims of previous scams \u2014 they ask for remote access to 'recover' lost funds.",
+    "Fake Norton, McAfee, or Avast renewal emails with phone numbers leading to remote access scams.",
+    "Telstra and NBN impersonation scams claiming your internet will be 'disconnected' unless you allow remote access."
   ]
 }
