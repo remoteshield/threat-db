@@ -1,9 +1,7 @@
 {
-  "version": "1.6.0",
-  "sha256": "f8a441a8f72e3cc0816c45b7d86e09fa9c4cb266671a525a4ca2b51a77ded5d2",
+  "version": "1.7.0",
+  "sha256": "7ec7a79c989b9f5b9b772daa6b93e9b48d695d4a93a4fc9b9ae395052be040fd",
   "downloadUrl": "https://raw.githubusercontent.com/remoteshield/threat-db/main/threat_database.json",
-  "changeLog": "v1.6.0 (2026-04-12) — Added 20 entries: SimpleHelp, Naverisk, Pulseway, Syncro/SyncroMSP, N-able/Take Control, ITarian/Comodo One, Datto RMM/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report, Sophos STAC6405, Proofpoint TrustConnect RATaaS, Microsoft Defender Experts, Barracuda SOC.",
-  "minAppVersion": "2.0.0",
-  "releaseDate": "2026-04-12",
-  "mandatory": false
+  "changeLog": "v1.7.0 (2026-04-27) — Added 19 entries, removed 1 placeholder. New RATs: CrystalX (Kaspersky Mar 2026), STX RAT (eSentire Feb 2026), Abko RAT, NodeSnake, MysterySnail. New RMM/remote tools: Zoho Assist (AU scam vector), ToDesk, SunLogin, AweSun, PDQ Connect, ManageEngine Desktop Central. Added Rclone (data exfil tool abused in Microsoft Teams impersonation campaigns Apr 2026). Sources: Kaspersky Securelist, eSentire TRU, Malwarebytes, Microsoft DART, Infosecurity Magazine.",
+  "minAppVersion": "2.0.0"
 }
