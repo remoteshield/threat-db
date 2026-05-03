@@ -604,14 +604,6 @@
       "userAdded": false
     },
     {
-      "name": "dayon.exe",
-      "category": "remote_access",
-      "description": "Dayon! Remote Desktop",
-      "severity": "high",
-      "enabled": true,
-      "userAdded": false
-    },
-    {
       "name": "dayon.assistant.exe",
       "category": "remote_access",
       "description": "Dayon! Assistant",
