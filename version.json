@@ -1,6 +1,6 @@
 {
   "version": "1.7.0",
-  "sha256": "7ec7a79c989b9f5b9b772daa6b93e9b48d695d4a93a4fc9b9ae395052be040fd",
+  "sha256": "1A3F7A0D1FD1C304EEEF48EAE7790CFEAF253B912D34EB6B59544C8821D2BAEC",
   "downloadUrl": "https://raw.githubusercontent.com/remoteshield/threat-db/main/threat_database.json",
   "changeLog": "v1.7.0 (2026-04-27) — Added 19 entries, removed 1 placeholder. New RATs: CrystalX (Kaspersky Mar 2026), STX RAT (eSentire Feb 2026), Abko RAT, NodeSnake, MysterySnail. New RMM/remote tools: Zoho Assist (AU scam vector), ToDesk, SunLogin, AweSun, PDQ Connect, ManageEngine Desktop Central. Added Rclone (data exfil tool abused in Microsoft Teams impersonation campaigns Apr 2026). Sources: Kaspersky Securelist, eSentire TRU, Malwarebytes, Microsoft DART, Infosecurity Magazine.",
   "minAppVersion": "2.0.0"
