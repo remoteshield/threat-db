@@ -1,6 +1,6 @@
 {
-  "version": "1.7.0",
-  "lastUpdated": "2026-04-27",
+  "version": "1.8.0",
+  "lastUpdated": "2026-07-05",
   "description": "RemoteShield Threat Database v1.6.0 - Added SimpleHelp, Naverisk, Pulseway, Syncro, N-able, Take Control, ITarian, Datto/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report (Mar 2026), Sophos STAC6405 (Apr 2026), Proofpoint TrustConnect RATaaS (Feb 2026), Microsoft Defender Experts signed-malware report (Mar 2026), Barracuda December SOC Threat Radar.",
   "blockedApps": [
     {
@@ -1524,7 +1524,7 @@
       "userAdded": false
     },
     {
-      "name": "netwireRAT.exe",
+      "name": "netwirerat.exe",
       "category": "rat",
       "description": "NetWire RAT",
       "severity": "critical",
@@ -1886,7 +1886,7 @@
     {
       "name": "crystalx.exe",
       "category": "rat",
-      "description": "CrystalX RAT (MaaS, Mar 2026 \u2014 Kaspersky Securelist)",
+      "description": "CrystalX RAT (MaaS, Mar 2026 — Kaspersky Securelist)",
       "severity": "critical",
       "enabled": true,
       "userAdded": false
@@ -1894,7 +1894,7 @@
     {
       "name": "stxrat.exe",
       "category": "rat",
-      "description": "STX RAT (Feb 2026 \u2014 hidden VNC + infostealer, eSentire TRU)",
+      "description": "STX RAT (Feb 2026 — hidden VNC + infostealer, eSentire TRU)",
       "severity": "critical",
       "enabled": true,
       "userAdded": false
@@ -2030,10 +2030,316 @@
     {
       "name": "rclone.exe",
       "category": "data_exfil",
-      "description": "Rclone (abused for data exfiltration in Teams impersonation campaigns \u2014 Microsoft Apr 2026)",
+      "description": "Rclone (abused for data exfiltration in Teams impersonation campaigns — Microsoft Apr 2026)",
       "severity": "critical",
       "enabled": true,
       "userAdded": false
+    },
+    {
+      "name": "netbird.exe",
+      "category": "remote_access",
+      "description": "NetBird — WireGuard-based remote access; abused in 2025-26 MuddyWater CFO spear-phishing",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "netbird-ui.exe",
+      "category": "remote_access",
+      "description": "NetBird UI client",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "loclx.exe",
+      "category": "remote_access",
+      "description": "LocalXpose (loclx) tunnel — exposes RDP/SSH via operator relay; post-exploitation remote access",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "lunixar.exe",
+      "category": "remote_access",
+      "description": "Lunixar RMM — distributed as Googlemeet.msi / eDocument phishing lures",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "lunixarremote.exe",
+      "category": "remote_access",
+      "description": "Lunixar remote component",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "lunixarupdater.exe",
+      "category": "remote_access",
+      "description": "Lunixar updater",
+      "severity": "medium",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "helpwire quick.exe",
+      "category": "remote_access",
+      "description": "HelpWire Quick Connect — attended remote support tool",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "remoteview.exe",
+      "category": "remote_access",
+      "description": "RemoteView RMM",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "rvagent.exe",
+      "category": "remote_access",
+      "description": "RemoteView agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "rvagtray.exe",
+      "category": "remote_access",
+      "description": "RemoteView agent tray",
+      "severity": "medium",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "fastviewer.exe",
+      "category": "remote_access",
+      "description": "FastViewer — attended remote support",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "fastclient.exe",
+      "category": "remote_access",
+      "description": "FastViewer client",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "fastmaster.exe",
+      "category": "remote_access",
+      "description": "FastViewer master",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "goverrmc.exe",
+      "category": "remote_access",
+      "description": "Goverlan Reach remote control",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "govreachclient.exe",
+      "category": "remote_access",
+      "description": "Goverlan Reach client",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "remotepass-access.exe",
+      "category": "remote_access",
+      "description": "RemotePass remote access",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "rpaccess.exe",
+      "category": "remote_access",
+      "description": "RemotePass access binary",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "ivantiremotecontrol.exe",
+      "category": "remote_access",
+      "description": "Ivanti Remote Control",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "pilixo_installer.exe",
+      "category": "remote_access",
+      "description": "Pilixo remote access installer",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "intelliadmin.exe",
+      "category": "remote_access",
+      "description": "IntelliAdmin Remote Control",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "syspectr.exe",
+      "category": "remote_access",
+      "description": "O&O Syspectr RMM",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "oosyspectr.exe",
+      "category": "remote_access",
+      "description": "O&O Syspectr agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "tmate.exe",
+      "category": "remote_access",
+      "description": "tmate terminal sharing (remote shell)",
+      "severity": "medium",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "rfusclient.exe",
+      "category": "remote_access",
+      "description": "Remote Manipulator System / Remote Utilities client (scam-abused)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "faronicsdeployagent.exe",
+      "category": "remote_access",
+      "description": "Faronics Deploy RMM agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "frcserver.exe",
+      "category": "remote_access",
+      "description": "Faronics Remote Control server",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "ehorus_agent.exe",
+      "category": "remote_access",
+      "description": "eHorus / Pandora RC agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "immyagent.exe",
+      "category": "remote_access",
+      "description": "ImmyBot RMM agent (reported in phishing delivery)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "immybot.agent.ephemeral.exe",
+      "category": "remote_access",
+      "description": "ImmyBot ephemeral agent",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "hbrm-x64.exe",
+      "category": "remote_access",
+      "description": "HeartbeatRM — initial-access staging before ScreenConnect",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "hbrm-updater-x64.exe",
+      "category": "remote_access",
+      "description": "HeartbeatRM updater",
+      "severity": "medium",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "aa_v6.exe",
+      "category": "remote_access",
+      "description": "Ammyy Admin (version-agnostic family)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "aa_v7.exe",
+      "category": "remote_access",
+      "description": "Ammyy Admin (version-agnostic family)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
+    },
+    {
+      "name": "subseven.exe",
+      "category": "rat",
+      "description": "Sub7 / SubSeven legacy RAT",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-05"
     }
   ],
   "blockedSigners": [
@@ -2256,6 +2562,31 @@
       "name": "FleetDeck Inc.",
       "description": "FleetDeck",
       "enabled": true
+    },
+    {
+      "name": "NetBird GmbH",
+      "description": "NetBird remote access (current signer)",
+      "enabled": true
+    },
+    {
+      "name": "Wiretrustee UG (haftungsbeschränkt)",
+      "description": "NetBird legacy signer",
+      "enabled": true
+    },
+    {
+      "name": "Electronic Team, Inc.",
+      "description": "HelpWire remote support",
+      "enabled": true
+    },
+    {
+      "name": "VAULT BİLİŞİM SİSTEMLERİ LTD.ŞTİ.",
+      "description": "Monitic RMM (RustDesk-bundled) — signer-based catch since agent.exe name is too generic to list",
+      "enabled": true
+    },
+    {
+      "name": "Faronics Corporation",
+      "description": "Faronics Deploy / Insight remote control",
+      "enabled": true
     }
   ],
   "blockedPorts": [
@@ -2448,9 +2779,9 @@
     "--relay-server"
   ],
   "currentScams": [
-    "Fake 'Microsoft Tech Support' calls are surging \u2014 Microsoft will never phone you about a virus.",
+    "Fake 'Microsoft Tech Support' calls are surging — Microsoft will never phone you about a virus.",
     "Scammers impersonating banks ask you to install AnyDesk or TeamViewer to 'fix' your account.",
-    "Crypto 'recovery' scams target previous victims \u2014 they ask for remote access to 'recover' lost funds.",
+    "Crypto 'recovery' scams target previous victims — they ask for remote access to 'recover' lost funds.",
     "Fake Norton, McAfee, or Avast renewal emails with phone numbers leading to remote access scams.",
     "Telstra/NBN impersonation scams claim your internet will be 'cut off' unless you allow remote access."
   ]
