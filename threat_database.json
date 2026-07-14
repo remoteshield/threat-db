@@ -1,6 +1,6 @@
 {
-  "version": "1.8.0",
-  "lastUpdated": "2026-07-05",
+  "version": "1.8.1",
+  "lastUpdated": "2026-07-14",
   "description": "RemoteShield Threat Database v1.6.0 - Added SimpleHelp, Naverisk, Pulseway, Syncro, N-able, Take Control, ITarian, Datto/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report (Mar 2026), Sophos STAC6405 (Apr 2026), Proofpoint TrustConnect RATaaS (Feb 2026), Microsoft Defender Experts signed-malware report (Mar 2026), Barracuda December SOC Threat Radar.",
   "blockedApps": [
     {
@@ -2340,6 +2340,51 @@
       "enabled": true,
       "userAdded": false,
       "addedDate": "2026-07-05"
+    },
+    {
+      "name": "gsmudaemon.exe",
+      "category": "remote_access",
+      "description": "Getscreen.me daemon (companion to getscreen.exe)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-14"
+    },
+    {
+      "name": "tacticalagent.exe",
+      "category": "remote_access",
+      "description": "Tactical RMM agent (companion to tacticalrmm.exe)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-14"
+    },
+    {
+      "name": "dwagsvc.exe",
+      "category": "remote_access",
+      "description": "DWAgent service (companion to dwagent.exe)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-14"
+    },
+    {
+      "name": "iperius.exe",
+      "category": "remote_access",
+      "description": "Iperius Remote",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-14"
+    },
+    {
+      "name": "rport.exe",
+      "category": "remote_access",
+      "description": "RPort remote management",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-07-14"
     }
   ],
   "blockedSigners": [
