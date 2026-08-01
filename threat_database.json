@@ -1,7 +1,7 @@
 {
-  "version": "1.8.3",
-  "lastUpdated": "2026-07-25",
-  "description": "RemoteShield Threat Database v1.6.0 - Added SimpleHelp, Naverisk, Pulseway, Syncro, N-able, Take Control, ITarian, Datto/CentraStage, SuperOps, Domotz, additional LogMeIn variants. Sources: Huntress 2026 Cyber Threat Report (Mar 2026), Sophos STAC6405 (Apr 2026), Proofpoint TrustConnect RATaaS (Feb 2026), Microsoft Defender Experts signed-malware report (Mar 2026), Barracuda December SOC Threat Radar.",
+  "version": "1.8.4",
+  "lastUpdated": "2026-07-31",
+  "description": "RemoteShield Threat Database. Canonical source of truth: this file is embedded in the build AND published for remote updates — both must be the same file at the same version. Per-release notes live in the version.json changeLog and CLAUDE.md, not here.",
   "blockedApps": [
     {
       "name": "dayon.exe",
