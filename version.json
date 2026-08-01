@@ -1,6 +1,6 @@
 {
-  "version": "1.8.1",
-  "sha256": "52bd12b90ebd1f3bf9428eeb7283ca56f3291bab9a0f2f9442fc7edea9e8954c",
-  "changeLog": "v1.8.1 - added Iperius Remote, RPort, and companion binaries for Getscreen / Tactical RMM / DWAgent (293 tools).",
-  "lastUpdated": "2026-07-14"
+  "version": "1.8.3",
+  "sha256": "dfc5665ea966913aee6947a82e71fc9d2d2120b677ea20b9a76f5041e4861ce3",
+  "changeLog": "v1.8.3 - 293 tools; adds Iperius Remote, RPort and companion binaries for Getscreen / Tactical RMM / DWAgent, plus regional display config.",
+  "lastUpdated": "2026-07-25"
 }
