@@ -1,6 +1,6 @@
 {
-  "version": "1.8.4",
-  "sha256": "63b1fe2434b1f37a5695d1a8803baea4eb00567988ac2e5fbb623280c74bea00",
-  "changeLog": "v1.8.4 - 293 tools, 49 signers.",
-  "lastUpdated": "2026-07-31"
+  "version": "1.9.0",
+  "sha256": "e5f6d8d4b0f0337af88b41895d6d967fb0679eb4253434d263800fc9af8034f8",
+  "changeLog": "v1.9.0 - 293 tools; adds US and NZ regional display config.",
+  "lastUpdated": "2026-08-02"
 }
