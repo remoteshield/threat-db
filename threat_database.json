@@ -1,6 +1,6 @@
 {
-  "version": "1.9.0",
-  "lastUpdated": "2026-08-02",
+  "version": "1.9.1",
+  "lastUpdated": "2026-08-08",
   "description": "RemoteShield Threat Database. Canonical source of truth: this file is embedded in the build AND published for remote updates — both must be the same file at the same version. Per-release notes live in the version.json changeLog and CLAUDE.md, not here.",
   "blockedApps": [
     {
@@ -2385,6 +2385,96 @@
       "enabled": true,
       "userAdded": false,
       "addedDate": "2026-07-14"
+    },
+    {
+      "name": "remotepcui.exe",
+      "category": "remote_access",
+      "description": "RemotePC user interface (IDrive) — the component that slipped through on 2026-08-08 VM test",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "remotepclauncher.exe",
+      "category": "remote_access",
+      "description": "RemotePC launcher (IDrive) — was heuristic-only, now deterministic",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "remotepcuiu.exe",
+      "category": "remote_access",
+      "description": "RemotePC UI updater (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "remotepcperformance.exe",
+      "category": "remote_access",
+      "description": "RemotePC Performance module (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "rpcperformanceservice.exe",
+      "category": "remote_access",
+      "description": "RemotePC Performance service (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "rpcprinterdownloader.exe",
+      "category": "remote_access",
+      "description": "RemotePC printer redirection downloader (IDrive)",
+      "severity": "medium",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "rpcdownloader.exe",
+      "category": "remote_access",
+      "description": "RemotePC component downloader (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "rpcotadnd_console.exe",
+      "category": "remote_access",
+      "description": "RemotePC OTA drag-and-drop console (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "rpcsetup.exe",
+      "category": "remote_access",
+      "description": "RemotePC installer (IDrive)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
+    },
+    {
+      "name": "tiexpertstandalone.exe",
+      "category": "remote_access",
+      "description": "TeamViewer TiExpert standalone module — was heuristic-only",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false,
+      "addedDate": "2026-08-08"
     }
   ],
   "blockedSigners": [

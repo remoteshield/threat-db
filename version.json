@@ -1,6 +1,6 @@
 {
-  "version": "1.9.0",
-  "sha256": "e5f6d8d4b0f0337af88b41895d6d967fb0679eb4253434d263800fc9af8034f8",
-  "changeLog": "v1.9.0 - 293 tools; adds US and NZ regional display config.",
-  "lastUpdated": "2026-08-02"
+  "version": "1.9.1",
+  "sha256": "73703641df117eb6f745de95f208eb7026b815fc1eb362c1de528c950a71104d",
+  "changeLog": "v1.9.1 - 303 tools; completes the RemotePC component family and adds TeamViewer TiExpert.",
+  "lastUpdated": "2026-08-08"
 }
