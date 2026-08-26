@@ -1,6 +1,6 @@
 {
-  "version": "1.9.1",
-  "sha256": "73703641df117eb6f745de95f208eb7026b815fc1eb362c1de528c950a71104d",
-  "changeLog": "v1.9.1 - 303 tools; completes the RemotePC component family and adds TeamViewer TiExpert.",
-  "lastUpdated": "2026-08-08"
+  "version": "1.9.2",
+  "sha256": "0968458b423d36ded6a62a8efef4c662c138ac7ac975b95719297572947d0a9c",
+  "changeLog": "v1.9.2 - 303 tools; price framing switched from weekly to monthly.",
+  "lastUpdated": "2026-08-23"
 }
