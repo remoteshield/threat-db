@@ -1,6 +1,6 @@
 {
-  "version": "1.9.2",
-  "lastUpdated": "2026-08-23",
+  "version": "1.9.7",
+  "lastUpdated": "2026-08-30",
   "description": "RemoteShield Threat Database. Canonical source of truth: this file is embedded in the build AND published for remote updates — both must be the same file at the same version. Per-release notes live in the version.json changeLog and CLAUDE.md, not here.",
   "blockedApps": [
     {
@@ -2475,6 +2475,46 @@
       "enabled": true,
       "userAdded": false,
       "addedDate": "2026-08-08"
+    },
+    {
+      "name": "romserver.exe",
+      "category": "remote_access",
+      "description": "LiteManager Server (host, ROMServer)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "romviewer.exe",
+      "category": "remote_access",
+      "description": "LiteManager Viewer (ROMViewer)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "romfusclient.exe",
+      "category": "remote_access",
+      "description": "LiteManager client (ROMFUSClient)",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "lmnoipserver.exe",
+      "category": "remote_access",
+      "description": "LiteManager NOIP server",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
+    },
+    {
+      "name": "distant-desktop.exe",
+      "category": "remote_access",
+      "description": "Distant Desktop remote access",
+      "severity": "high",
+      "enabled": true,
+      "userAdded": false
     }
   ],
   "blockedSigners": [
@@ -2947,7 +2987,8 @@
       "priceAnnual": "68",
       "lastVerified": "2026-08-02",
       "sourceNote": "ACCC media release 28 May 2024: Q1-2024 average loss per remote-access scam victim.",
-      "priceMonthly": "5.67"
+      "priceMonthly": "5.67",
+      "live": true
     },
     "US": {
       "lossAmount": "$44,664",
@@ -2961,7 +3002,8 @@
       "currencySymbol": "$",
       "currencyCode": "USD",
       "priceAnnual": "49",
-      "priceMonthly": "4.08"
+      "priceMonthly": "4.08",
+      "live": true
     },
     "NZ": {
       "lossAmount": "$3,352",
@@ -2975,7 +3017,53 @@
       "currencySymbol": "$",
       "currencyCode": "NZD",
       "priceAnnual": "74.99",
-      "priceMonthly": "6.25"
+      "priceMonthly": "6.25",
+      "live": true
+    },
+    "CA": {
+      "lossAmount": null,
+      "lossLabel": "Over $704 million lost to fraud",
+      "lossSublabel": "reported in 2025",
+      "sourceName": "Canadian Anti-Fraud Centre",
+      "sourceUrl": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2026/2026-03-06-eng.htm",
+      "sourceAuthority": "Government of Canada",
+      "sourceNote": "CAFC / Competition Bureau, 6 Mar 2026: Canadians reported over $704 million lost to ALL fraud in 2025. CAFC warns about remote-access scams but publishes no reliable remote-access-specific per-victim average, so lossAmount is null and the label/sublabel carry a qualitative warning (handled by applyRegionalConfig v2.1.23).",
+      "lastVerified": "2026-08-27",
+      "currencySymbol": "$",
+      "currencyCode": "CAD",
+      "priceAnnual": "69.99",
+      "priceMonthly": "5.83",
+      "live": true
+    },
+    "GB": {
+      "lossAmount": "£2,868",
+      "lossLabel": "Average reported loss from remote-access scams",
+      "lossSublabel": "per victim in 2021",
+      "sourceName": "Action Fraud",
+      "sourceUrl": "https://www.actionfraud.police.uk/alert/more-than-50-million-lost-to-remote-access-tool-scams-last-year",
+      "sourceAuthority": "City of London Police",
+      "sourceNote": "Action Fraud, 2021: 20,144 remote-access scam victims lost a total of £57,790,384 = £2,868 per victim (Action Fraud's own published average). No directly comparable more-recent RA-specific per-victim figure identified.",
+      "lastVerified": "2026-08-27",
+      "currencySymbol": "£",
+      "currencyCode": "GBP",
+      "priceAnnual": "34.99",
+      "priceMonthly": "2.92",
+      "live": false
+    },
+    "EU": {
+      "lossAmount": null,
+      "lossLabel": "Tech-support fraud is an emerging threat",
+      "lossSublabel": "remote access can enable financial theft",
+      "sourceName": "Europol",
+      "sourceUrl": "https://www.europol.europa.eu/media-press/newsroom/news/steal-deal-repeat-cybercriminals-cash-in-your-data",
+      "sourceAuthority": "European Union",
+      "sourceNote": "Europol 2025 IOCTA ('Steal, Deal, Repeat'): cybercrime ecosystem built on access to victims' systems, with remote-access software repeatedly used to seize control. No reliable EU-wide per-victim average for remote-access / tech-support scams identified, so lossAmount is null (qualitative warning). Resolves for eurozone member countries — see EurozoneCodes in ThreatDatabase.GetRegionalConfig.",
+      "lastVerified": "2026-08-27",
+      "currencySymbol": "€",
+      "currencyCode": "EUR",
+      "priceAnnual": "39.99",
+      "priceMonthly": "3.33",
+      "live": false
     }
   }
 }

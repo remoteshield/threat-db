@@ -1,6 +1,6 @@
-{
-  "version": "1.9.2",
-  "sha256": "0968458b423d36ded6a62a8efef4c662c138ac7ac975b95719297572947d0a9c",
-  "changeLog": "v1.9.2 - 303 tools; price framing switched from weekly to monthly.",
-  "lastUpdated": "2026-08-23"
+﻿{
+    "version":  "1.9.7",
+    "sha256":  "29735ecbecaa2fe72a3cc7c943bdd3495053574573b313f7eb11054c5b787b10",
+    "changeLog":  "v1.9.7 - 308 tools, 49 signers.",
+    "lastUpdated":  "2026-08-30"
 }
